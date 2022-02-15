@@ -18,6 +18,24 @@ Consequently, we reveal that both of the robust and non-robust features indeed h
 ![Alt text](Figure.png)
 ---
 
+
+
+## Citation
+If you find this work helpful, please cite is as:
+
+```
+@inproceedings{
+kim2021distilling,
+title={Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck},
+author={Junho Kim and Byung-Kwan Lee and Yong Man Ro},
+booktitle={Advances in Neural Information Processing Systems},
+editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
+year={2021},
+url={https://openreview.net/forum?id=90M-91IZ0JC}
+}
+```
+---
+
 ## Datasets
 * [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 * [SVHN](http://ufldl.stanford.edu/housenumbers/)
@@ -64,7 +82,7 @@ This implementation details are described in *loader/loader.py*.
 ```
 
 ---
-##Included Packages (for Ours)
+## Included Packages (for Ours)
 * Informative Feature Package *(model/IFP.py)*
   * Distilling robust and non-robust features in intermediate layer by Information Bottleneck
 * Visualization of robust and non-robust features *(visualization/inversion.py)*
@@ -73,13 +91,14 @@ This implementation details are described in *loader/loader.py*.
   * **NRF2** : minimizing the magnitude of non-robust feature gradients
   * **RF** : maximizing the magnitude of robust feature gradients
   * **RF2** : minimizing the magnitude of robust feature gradients
+
 ---
 
 ## Baseline Methods
 * **Plain**  *(Plain Training)*
     - Run `train_plain.py`
   
-    ```bash
+    ```python
       parser.add_argument('--lr', default=0.01, type=float, help='learning rate')
       parser.add_argument('--dataset', default='cifar10', type=str, help='dataset name')
       parser.add_argument('--network', default='vgg', type=str, help='network name')
@@ -115,7 +134,7 @@ This implementation details are described in *loader/loader.py*.
 * **TRADES**  *([Recent defense method](http://proceedings.mlr.press/v97/zhang19p.html))*
     - Run `train_TRADES.py`
   
-    ```bash
+    ```python
       parser.add_argument('--lr', default=0.01, type=float, help='learning rate')
       parser.add_argument('--steps', default=10, type=int, help='adv. steps')
       parser.add_argument('--eps', default=0.03, type=float, help='max norm')
@@ -135,7 +154,7 @@ This implementation details are described in *loader/loader.py*.
 * **MART**  *([Recent defense method](https://openreview.net/forum?id=rklOg6EFwS))*
     - Run `train_MART.py`
   
-    ```bash
+    ```python
       parser.add_argument('--lr', default=0.01, type=float, help='learning rate')
       parser.add_argument('--steps', default=10, type=int, help='adv. steps')
       parser.add_argument('--eps', default=0.03, type=float, help='max norm')
@@ -158,7 +177,7 @@ This implementation details are described in *loader/loader.py*.
 * **Mearsuring the robustness in baseline models trained with baseline methods**
   - Run `test.py` 
 
-    ```bash
+    ```python
     parser.add_argument('--steps', default=10, type=int, help='adv. steps')
     parser.add_argument('--eps', default=0.03, type=float, help='max norm')
     parser.add_argument('--dataset', default='cifar10', type=str, help='dataset name')
@@ -180,7 +199,7 @@ This implementation details are described in *loader/loader.py*.
 * **Feature Interpreation**
     - Run `visualize.py`
   
-    ```bash
+    ```python
     parser.add_argument('--lr', default=0.01, type=float, help='learning rate')
     parser.add_argument('--steps', default=10, type=int, help='adv. steps')
     parser.add_argument('--eps', default=0.03, type=float, help='max norm')
