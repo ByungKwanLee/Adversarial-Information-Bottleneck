@@ -1,18 +1,18 @@
 # NeurIPS 2021
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Title: Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck [(paper)](https://openreview.net/forum?id=90M-91IZ0JC)
-
----
 
 #### Authors: [Junho Kim*](https://scholar.google.com/citations?user=ZxE16ZUAAAAJ&hl=en), [Byung-Kwan Lee*](https://scholar.google.co.kr/citations?user=rl0JXCQAAAAJ&hl=en), and [Yong Man Ro](https://scholar.google.co.kr/citations?user=IPzfF7cAAAAJ&hl=en) (*: equally contributed)
 #### Affiliation: School of Electric Engineering, Korea Advanced Institute of Science and Technology (KAIST)
 #### Email: `arkimjh@kaist.ac.kr`, `leebk@kaist.ac.kr`, `ymro@kaist.ac.kr`
 
 ---
-This is official code for the paper of "Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck" published in NeurIPS 21. 
+
+This is official PyTorch Implementation code for the paper of "Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck" published in NeurIPS 21. 
 It provides novel method of decomposing robust and non-robust features in intermediate layer.
 Further, we understand the semantic information of distilled features, by directly visualizing robust and non-robust features in the feature representation space.
-Consequently, we reveal that both of the robust and non-robust features indeed have semantic information in terms of human-perception by themselves. For more detail, you can refer to our paper!
+Consequently, we reveal that both of the robust and non-robust features indeed have semantic information in terms of human-perception by themselves. For more detail, you can refer to our paper! 
 
 ![Alt text](Figure.png)
 ---
