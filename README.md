@@ -1,4 +1,4 @@
-#NeurIPS 2021
+# NeurIPS 2021
 
 ---
 ## Title: Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck [(paper)](https://openreview.net/forum?id=90M-91IZ0JC)
