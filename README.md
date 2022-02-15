@@ -20,7 +20,7 @@ Consequently, we reveal that both of the robust and non-robust features indeed h
 
 
 ## Citation
-If you find this work helpful, please cite is as:
+If you find this work helpful, please cite it as:
 
 ```
 @inproceedings{
