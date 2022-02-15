@@ -9,7 +9,7 @@
 #### Email: `arkimjh@kaist.ac.kr`, `leebk@kaist.ac.kr`, `ymro@kaist.ac.kr`
 
 ---
-This is official code for the paper of "Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck" published in NeurIPS21. 
+This is official code for the paper of "Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck" published in NeurIPS 21. 
 It provides novel method of decomposing robust and non-robust features in intermediate layer.
 Further, we understand the semantic information of distilled features, by directly visualizing robust and non-robust features in the feature representation space.
 Consequently, we reveal that both of the robust and non-robust features indeed have semantic information in terms of human-perception by themselves. For more detail, you can refer to our paper!
