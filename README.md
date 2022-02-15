@@ -15,7 +15,7 @@ It provides novel method of decomposing robust and non-robust features in interm
 Further, we understand the semantic information of distilled features, by directly visualizing robust and non-robust features in the feature representation space.
 Consequently, we reveal that both of the robust and non-robust features indeed have semantic information in terms of human-perception by themselves. For more detail, you can refer to our paper!
 
-![Alt text](C:\Users\leebk\Desktop\Code\NIPS21_Official_Code/Figure.png)
+![Alt text](Figure.png)
 ---
 
 ## Datasets
