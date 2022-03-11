@@ -7,7 +7,7 @@
 ## Title: Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck [(paper)](https://openreview.net/forum?id=90M-91IZ0JC)
 
 #### Authors: [Junho Kim*](https://scholar.google.com/citations?user=ZxE16ZUAAAAJ&hl=en), [Byung-Kwan Lee*](https://scholar.google.co.kr/citations?user=rl0JXCQAAAAJ&hl=en), and [Yong Man Ro](https://scholar.google.co.kr/citations?user=IPzfF7cAAAAJ&hl=en) (*: equally contributed)
-#### Affiliation: School of Electric Engineering, Korea Advanced Institute of Science and Technology (KAIST)
+#### Affiliation: School of Electrical Engineering, Korea Advanced Institute of Science and Technology (KAIST)
 #### Email: `arkimjh@kaist.ac.kr`, `leebk@kaist.ac.kr`, `ymro@kaist.ac.kr`
 
 ---
