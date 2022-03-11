@@ -4,7 +4,7 @@
 [![Generic badge](https://img.shields.io/badge/Library-Pytorch-green.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ByungKwanLee/Adversarial-Information-Bottleneck/blob/master/LICENSE) 
 
-## Title: Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck [(paper)](https://openreview.net/forum?id=90M-91IZ0JC)
+## Distilling Robust and Non-Robust Features in Adversarial Examples by Information Bottleneck [(paper)](https://openreview.net/forum?id=90M-91IZ0JC)
 
 #### Authors: [Junho Kim*](https://scholar.google.com/citations?user=ZxE16ZUAAAAJ&hl=en), [Byung-Kwan Lee*](https://scholar.google.co.kr/citations?user=rl0JXCQAAAAJ&hl=en), and [Yong Man Ro](https://scholar.google.co.kr/citations?user=IPzfF7cAAAAJ&hl=en) (*: equally contributed)
 #### Affiliation: School of Electrical Engineering, Korea Advanced Institute of Science and Technology (KAIST)
